@@ -1,4 +1,4 @@
-10.16 4:35 PM
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -104,16 +104,16 @@
 
 <!-- PAGE 1 -->
 <div id="page1" class="screen">
-  <!-- Two diyas and Diwali text in the middle -->
+
   <div style="display:flex; align-items:center; gap:20px; margin-bottom:20px; z-index:50;">
     <img src="https://cdn-icons-png.flaticon.com/512/3193/3193762.png" alt="Diya" style="width:50px; height:50px;">
     <span style="font-family:'Great Vibes', cursive; font-size:2.5rem; font-weight:bold; color:#b77300;">Diwali</span>
     <img src="https://cdn-icons-png.flaticon.com/512/3193/3193762.png" alt="Diya" style="width:50px; height:50px;">
   </div>
 
-  <!-- Name input -->
+
   <input id="nameInput" type="text" placeholder="Enter your name..." />
-  <!-- Button changed to Celebrate -->
+
   <button id="enter" class="enter-btn">Celebrate</button>
 </div>
 
@@ -128,7 +128,7 @@
 </div>
 
 <script>
-/* Leaves animation */
+
 (function(){
   const page1=document.getElementById('page1');
   for(let i=0;i<20;i++){
@@ -148,7 +148,7 @@
   }
 })();
 
-/* Switch pages */
+
 const enterBtn=document.getElementById('enter');
 const nameInput=document.getElementById('nameInput');
 const page1=document.getElementById('page1');
@@ -165,7 +165,7 @@ enterBtn.addEventListener('click',()=>{
   fitCanvas();
 });
 
-/* Fireworks */
+
 (function fireworks(){
   const ctx=canvas.getContext('2d');
   let particles=[];
